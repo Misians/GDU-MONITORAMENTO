@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tittle{
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+.dashboard{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    justify-content: center;
+}
+.quadrado{
+
+    color: aliceblue;
+    border-radius: 5px;
+    background-color: rgb(46, 161, 255);
+    width: 300px;
+    min-width: 300px;
+    min-height: 170px;
+    max-height: fit-content;
+    max-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2{
+    color:  rgb(46, 161, 255);
+    font-size: 3rem;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.duvida{
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Número máximo de linhas permitidas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.responsavel{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 40px;
+    color: rgb(46, 161, 255);
+    border: 1px solid #cccccc;
+}
+.responsavel p{
+    text-align: center;
+    font-weight: 600;
+}
+.dpflex{
+    position: inherit;
+    display: flex;
+    flex-direction: row;
+}
+.setor{
+    background-color: aliceblue;
+    color: rgb(46, 161, 255);
+    max-width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.infos{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 10px;
+    height: 20px;
+}
+.infos p{
+    position: relative;
+    top: -15px;
+}
+#mycheck{
+    position: relative;
+    top: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+#mycheck:checked{
+    background-color: aliceblue;
+    label[for="mycheck"] {
+        padding-left: 5px;
+        cursor: pointer;
+    }
+}
+.check{
+    position: relative;
+    top: -15px;
+}
+.login{
+    position: relative;
+    margin: 200 auto;
+    color: #f2f2f2;
+    background-color: rgb(46, 161, 255);
+    max-width: fit-content;
+    padding: 50px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    
+}
+.login h1{
+    text-align: center;
+    margin: 0;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+.login input{
+    width: 250px; /* Largura do input */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #cccccc; /* Borda */
+    border-radius: 4px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
+    background-color: #f2f2f2; /* Cor de fundo */
+}
